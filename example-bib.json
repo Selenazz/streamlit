@@ -11,7 +11,9 @@
       "pages": "113-129",
       "doi": "10.1234/jacs.2012.01802",
       "abstract": "This study explores the phenomenon of cognitive drift in large-scale knowledge systems over extended periods of use. Using simulated learning environments, the authors demonstrate how accumulated minor inaccuracies can influence system-level reasoning outcomes.",
-      "keywords": ["cognitive drift", "knowledge systems", "long-term learning", "simulation"]
+      "keywords": ["cognitive drift", "knowledge systems", "long-term learning", "simulation"],
+      "cites": [4, 8],
+      "cited_by": [3, 5]
     },
     {
       "id": 2,
@@ -24,7 +26,9 @@
       "pages": "22-41",
       "doi": "10.5678/cmr.2015.07101",
       "abstract": "The paper investigates temporal pattern formation in synthetic memory architectures. Results indicate that periodic reinforcement significantly stabilizes memory retrieval accuracy.",
-      "keywords": ["synthetic memory", "temporal patterns", "computational models"]
+      "keywords": ["synthetic memory", "temporal patterns", "computational models"],
+      "cites": [1, 6],
+      "cited_by": [5, 7]
     },
     {
       "id": 3,
@@ -37,7 +41,9 @@
       "pages": "301-320",
       "doi": "10.9012/ijar.2018.24405",
       "abstract": "This article presents a hierarchical attention framework designed to improve abstract reasoning tasks. Experimental results show notable gains in reasoning depth and inference consistency.",
-      "keywords": ["attention mechanisms", "abstract reasoning", "hierarchical models"]
+      "keywords": ["attention mechanisms", "abstract reasoning", "hierarchical models"],
+      "cites": [1, 2, 5],
+      "cited_by": [6, 9]
     },
     {
       "id": 4,
@@ -50,7 +56,9 @@
       "pages": "77-94",
       "doi": "10.2222/jdp.2011.09307",
       "abstract": "The research analyzes information decay in distributed digital archives. Findings suggest redundancy alone is insufficient without periodic validation protocols.",
-      "keywords": ["information decay", "digital archives", "data preservation"]
+      "keywords": ["information decay", "digital archives", "data preservation"],
+      "cites": [8],
+      "cited_by": [1, 2]
     },
     {
       "id": 5,
@@ -63,7 +71,9 @@
       "pages": "145-162",
       "doi": "10.3344/ais.2019.14209",
       "abstract": "This paper examines how machines construct and interpret synthetic narratives. The authors argue that narrative coherence emerges from constraint-based semantic alignment.",
-      "keywords": ["synthetic narratives", "machine interpretation", "semantics"]
+      "keywords": ["synthetic narratives", "machine interpretation", "semantics"],
+      "cites": [1, 2, 3],
+      "cited_by": [9, 10]
     },
     {
       "id": 6,
@@ -76,7 +86,9 @@
       "pages": "1-19",
       "doi": "10.8080/jas.2014.11101",
       "abstract": "The study proposes a probabilistic framework for representing uncertainty in autonomous decision-making systems, improving robustness in dynamic environments.",
-      "keywords": ["uncertainty modeling", "autonomous systems", "decision-making"]
+      "keywords": ["uncertainty modeling", "autonomous systems", "decision-making"],
+      "cites": [2, 3],
+      "cited_by": [3, 7]
     },
     {
       "id": 7,
@@ -89,7 +101,9 @@
       "pages": "210-228",
       "doi": "10.4555/keq.2016.21306",
       "abstract": "This paper introduces semantic compression techniques that reduce storage requirements while maintaining inferential accuracy in large knowledge bases.",
-      "keywords": ["semantic compression", "knowledge bases", "information storage"]
+      "keywords": ["semantic compression", "knowledge bases", "information storage"],
+      "cites": [2, 6],
+      "cited_by": [9, 10]
     },
     {
       "id": 8,
@@ -102,7 +116,9 @@
       "pages": "55-73",
       "doi": "10.6006/fml.2010.05204",
       "abstract": "The article explores how emergent structures arise in algorithmic learning systems without explicit programming of higher-order rules.",
-      "keywords": ["emergence", "algorithmic learning", "machine learning theory"]
+      "keywords": ["emergence", "algorithmic learning", "machine learning theory"],
+      "cites": [],
+      "cited_by": [1, 4]
     },
     {
       "id": 9,
@@ -115,7 +131,9 @@
       "pages": "9-27",
       "doi": "10.9191/jeai.2020.03102",
       "abstract": "This study compares multiple interpretability metrics applied to neural models, highlighting trade-offs between transparency and predictive fidelity.",
-      "keywords": ["interpretability", "neural networks", "explainable AI"]
+      "keywords": ["interpretability", "neural networks", "explainable AI"],
+      "cites": [3, 5, 7],
+      "cited_by": [10]
     },
     {
       "id": 10,
@@ -128,7 +146,9 @@
       "pages": "289-305",
       "doi": "10.7777/asj.2013.12409",
       "abstract": "The paper analyzes how adaptive agents maintain concept stability while continuously updating internal representations.",
-      "keywords": ["adaptive agents", "concept stability", "learning systems"]
+      "keywords": ["adaptive agents", "concept stability", "learning systems"],
+      "cites": [5, 7, 9],
+      "cited_by": [11, 13]
     },
     {
       "id": 11,
@@ -141,7 +161,9 @@
       "pages": "101-118",
       "doi": "10.3001/mir.2017.16205",
       "abstract": "This research investigates cross-domain transfer capabilities in artificial reasoners, demonstrating improved efficiency through shared latent representations.",
-      "keywords": ["transfer learning", "artificial reasoning", "cross-domain learning"]
+      "keywords": ["transfer learning", "artificial reasoning", "cross-domain learning"],
+      "cites": [10, 12],
+      "cited_by": [14]
     },
     {
       "id": 12,
@@ -154,7 +176,9 @@
       "pages": "33-50",
       "doi": "10.4848/jscs.2011.08103",
       "abstract": "The article discusses formal constraint systems for knowledge representation and their impact on inference consistency.",
-      "keywords": ["knowledge representation", "formal constraints", "symbolic computation"]
+      "keywords": ["knowledge representation", "formal constraints", "symbolic computation"],
+      "cites": [],
+      "cited_by": [11, 14]
     },
     {
       "id": 13,
@@ -167,7 +191,9 @@
       "pages": "66-84",
       "doi": "10.5151/sir.2021.04204",
       "abstract": "This paper examines adaptive feedback loops and their role in stabilizing intelligent system behavior under uncertainty.",
-      "keywords": ["feedback loops", "intelligent systems", "adaptation"]
+      "keywords": ["feedback loops", "intelligent systems", "adaptation"],
+      "cites": [10, 1],
+      "cited_by": [15]
     },
     {
       "id": 14,
@@ -180,7 +206,9 @@
       "pages": "190-207",
       "doi": "10.9099/ctj.2014.10308",
       "abstract": "The study proposes metrics for quantifying abstraction levels in computational models and validates them across benchmark tasks.",
-      "keywords": ["abstraction", "computational models", "metrics"]
+      "keywords": ["abstraction", "computational models", "metrics"],
+      "cites": [11, 12],
+      "cited_by": [16]
     },
     {
       "id": 15,
@@ -193,7 +221,9 @@
       "pages": "58-74",
       "doi": "10.1212/acs.2009.06204",
       "abstract": "This article explores logic-based control mechanisms and their application in autonomous system frameworks.",
-      "keywords": ["logic-based control", "autonomy", "control systems"]
+      "keywords": ["logic-based control", "autonomy", "control systems"],
+      "cites": [],
+      "cited_by": [13, 16]
     },
     {
       "id": 16,
@@ -206,7 +236,9 @@
       "pages": "402-419",
       "doi": "10.2323/jds.2018.19412",
       "abstract": "The paper reviews scalability challenges encountered during large-scale knowledge graph construction and proposes mitigation strategies.",
-      "keywords": ["knowledge graphs", "scalability", "data structures"]
+      "keywords": ["knowledge graphs", "scalability", "data structures"],
+      "cites": [14, 15],
+      "cited_by": []
     },
     {
       "id": 17,
