@@ -10,12 +10,11 @@ load_dotenv()
 
 # Set page config
 st.set_page_config(
-    page_title="Better Notion",
+    page_title="Literature Manager",
     layout="wide"
 )
 
-st.title("Notion for Literature")
-
+st.title("Literature Database and Manager")
 # Configure OpenAI API
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 if OPENAI_API_KEY:
