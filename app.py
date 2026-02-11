@@ -1,12 +1,16 @@
 import streamlit as st
 import json
 import os
+import re
 from datetime import datetime
 from openai import OpenAI
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
+# Try to load from .env file for local development
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # dotenv not installed, will use st.secrets or env vars
 
 # Set page config
 st.set_page_config(
@@ -15,13 +19,21 @@ st.set_page_config(
 )
 
 st.title("Literature Database and Manager")
-# Configure OpenAI API
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+# Configure OpenAI API - check st.secrets first (Streamlit Cloud), then env vars (local)
+OPENAI_API_KEY = None
+try:
+    # Try Streamlit secrets first (for Streamlit Cloud deployment)
+    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+except (KeyError, FileNotFoundError):
+    # Fall back to environment variable (for local development)
+    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 if OPENAI_API_KEY:
     client = OpenAI(api_key=OPENAI_API_KEY)
     SUMMARIES_CACHE_FILE = "ai_summaries_cache.json"
 else:
-    st.warning("⚠️ OpenAI API key not found. AI summaries will not be available. Set OPENAI_API_KEY in .env file.")
+    st.warning("⚠️ OpenAI API key not found. AI summaries will not be available. Set OPENAI_API_KEY in secrets or .env file.")
 
 # Add version toggle
 col1, col2 = st.columns([10, 2])
@@ -273,7 +285,6 @@ Include the URL in markdown link format as shown above. Only provide the numbere
             
             # Now parse: "[Title](URL) - Reason"
             # Extract markdown link: [Title](URL)
-            import re
             markdown_link_match = re.search(r'\[([^\]]+)\]\(([^)]+)\)', line_content)
             
             if markdown_link_match:
