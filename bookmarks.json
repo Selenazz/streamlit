@@ -1,25 +1,6 @@
 {
   "references": [
     {
-      "id": 8,
-      "authors": [
-        "D. Wallace"
-      ],
-      "year": 2010,
-      "title": "Emergent Structures in Algorithmic Learning",
-      "journal": "Foundations of Machine Learning",
-      "volume": 5,
-      "issue": 2,
-      "pages": "55-73",
-      "doi": "10.6006/fml.2010.05204",
-      "abstract": "The article explores how emergent structures arise in algorithmic learning systems without explicit programming of higher-order rules.",
-      "keywords": [
-        "emergence",
-        "algorithmic learning",
-        "machine learning theory"
-      ]
-    },
-    {
       "id": 10,
       "authors": [
         "A. Fowler"
@@ -36,6 +17,30 @@
         "adaptive agents",
         "concept stability",
         "learning systems"
+      ]
+    },
+    {
+      "id": 8,
+      "authors": [
+        "D. Wallace"
+      ],
+      "year": 2010,
+      "title": "Emergent Structures in Algorithmic Learning",
+      "journal": "Foundations of Machine Learning",
+      "volume": 5,
+      "issue": 2,
+      "pages": "55-73",
+      "doi": "10.6006/fml.2010.05204",
+      "abstract": "The article explores how emergent structures arise in algorithmic learning systems without explicit programming of higher-order rules.",
+      "keywords": [
+        "emergence",
+        "algorithmic learning",
+        "machine learning theory"
+      ],
+      "cites": [],
+      "cited_by": [
+        1,
+        4
       ]
     }
   ]
